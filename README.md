@@ -6,7 +6,13 @@ Chess engine
 
 * [x] Support long movement notation
 * [ ] Support shorter movement notation
-* [ ] Render board to terminal
+* [x] Render board to terminal
 * [ ] Add AI player
 * [ ] Castling
 * [ ] En passant
+
+## How to run
+
+`cargo run` - Renders board to terminal
+
+`cargo test` - Run unit tests
