@@ -192,7 +192,7 @@ impl Board {
 
     pub fn render(&self) {
         for (idx, y) in self.board.iter().enumerate() {
-            print!(" {: >2}", idx + 1);
+            print!(" {: >2}", 8-idx);
             for x in y.iter().rev() {
                 print!("{: >5}", x)
             }
