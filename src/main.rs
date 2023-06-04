@@ -1,5 +1,6 @@
 mod board;
 mod movement;
+mod logic;
 
 use crate::board::{Board};
 use crate::movement::Movement;
